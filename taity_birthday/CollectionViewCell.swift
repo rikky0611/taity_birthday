@@ -27,8 +27,8 @@ class CollectionViewCell: UICollectionViewCell {
     
     private func setAnimation() {
         let animation : CABasicAnimation = CABasicAnimation(keyPath: "transform")
-        animation.duration = 0.5
-        animation.repeatCount = 5
+        animation.duration = drand48()+0.1
+        animation.repeatCount = 1000
         animation.autoreverses = true
         
         let transform : CATransform3D = CATransform3DMakeRotation(CGFloat(M_PI),  0.0, 0.5, 0.0)
