@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A25ADE71D75B144009750BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25ADE61D75B144009750BF /* AppDelegate.swift */; };
+		9A25ADE91D75B144009750BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25ADE81D75B144009750BF /* ViewController.swift */; };
+		9A25ADEC1D75B144009750BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A25ADEA1D75B144009750BF /* Main.storyboard */; };
+		9A25ADEE1D75B144009750BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A25ADED1D75B144009750BF /* Assets.xcassets */; };
+		9A25ADF11D75B144009750BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A25ADEF1D75B144009750BF /* LaunchScreen.storyboard */; };
+		9A25ADFC1D75B144009750BF /* taity_birthdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25ADFB1D75B144009750BF /* taity_birthdayTests.swift */; };
+		9A25AE071D75B144009750BF /* taity_birthdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25AE061D75B144009750BF /* taity_birthdayUITests.swift */; };
+		9A25AE161D75B26A009750BF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25AE141D75B26A009750BF /* CustomCell.swift */; };
+		9A25AE171D75B26A009750BF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A25AE151D75B26A009750BF /* CustomCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A25ADF81D75B144009750BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A25ADDB1D75B144009750BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A25ADE21D75B144009750BF;
+			remoteInfo = taity_birthday;
+		};
+		9A25AE031D75B144009750BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A25ADDB1D75B144009750BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A25ADE21D75B144009750BF;
+			remoteInfo = taity_birthday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A25ADE31D75B144009750BF /* taity_birthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taity_birthday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A25ADE61D75B144009750BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A25ADE81D75B144009750BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A25ADEB1D75B144009750BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A25ADED1D75B144009750BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A25ADF01D75B144009750BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A25ADF21D75B144009750BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A25ADF71D75B144009750BF /* taity_birthdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taity_birthdayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A25ADFB1D75B144009750BF /* taity_birthdayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taity_birthdayTests.swift; sourceTree = "<group>"; };
+		9A25ADFD1D75B144009750BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A25AE021D75B144009750BF /* taity_birthdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taity_birthdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A25AE061D75B144009750BF /* taity_birthdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taity_birthdayUITests.swift; sourceTree = "<group>"; };
+		9A25AE081D75B144009750BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A25AE141D75B26A009750BF /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		9A25AE151D75B26A009750BF /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A25ADE01D75B144009750BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A25ADF41D75B144009750BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A25ADFF1D75B144009750BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A25ADDA1D75B144009750BF = {
+			isa = PBXGroup;
+			children = (
+				9A25ADE51D75B144009750BF /* taity_birthday */,
+				9A25ADFA1D75B144009750BF /* taity_birthdayTests */,
+				9A25AE051D75B144009750BF /* taity_birthdayUITests */,
+				9A25ADE41D75B144009750BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A25ADE41D75B144009750BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A25ADE31D75B144009750BF /* taity_birthday.app */,
+				9A25ADF71D75B144009750BF /* taity_birthdayTests.xctest */,
+				9A25AE021D75B144009750BF /* taity_birthdayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A25ADE51D75B144009750BF /* taity_birthday */ = {
+			isa = PBXGroup;
+			children = (
+				9A25ADE61D75B144009750BF /* AppDelegate.swift */,
+				9A25ADE81D75B144009750BF /* ViewController.swift */,
+				9A25ADEA1D75B144009750BF /* Main.storyboard */,
+				9A25ADED1D75B144009750BF /* Assets.xcassets */,
+				9A25ADEF1D75B144009750BF /* LaunchScreen.storyboard */,
+				9A25ADF21D75B144009750BF /* Info.plist */,
+				9A25AE141D75B26A009750BF /* CustomCell.swift */,
+				9A25AE151D75B26A009750BF /* CustomCell.xib */,
+			);
+			path = taity_birthday;
+			sourceTree = "<group>";
+		};
+		9A25ADFA1D75B144009750BF /* taity_birthdayTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A25ADFB1D75B144009750BF /* taity_birthdayTests.swift */,
+				9A25ADFD1D75B144009750BF /* Info.plist */,
+			);
+			path = taity_birthdayTests;
+			sourceTree = "<group>";
+		};
+		9A25AE051D75B144009750BF /* taity_birthdayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A25AE061D75B144009750BF /* taity_birthdayUITests.swift */,
+				9A25AE081D75B144009750BF /* Info.plist */,
+			);
+			path = taity_birthdayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A25ADE21D75B144009750BF /* taity_birthday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A25AE0B1D75B144009750BF /* Build configuration list for PBXNativeTarget "taity_birthday" */;
+			buildPhases = (
+				9A25ADDF1D75B144009750BF /* Sources */,
+				9A25ADE01D75B144009750BF /* Frameworks */,
+				9A25ADE11D75B144009750BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taity_birthday;
+			productName = taity_birthday;
+			productReference = 9A25ADE31D75B144009750BF /* taity_birthday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A25ADF61D75B144009750BF /* taity_birthdayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A25AE0E1D75B144009750BF /* Build configuration list for PBXNativeTarget "taity_birthdayTests" */;
+			buildPhases = (
+				9A25ADF31D75B144009750BF /* Sources */,
+				9A25ADF41D75B144009750BF /* Frameworks */,
+				9A25ADF51D75B144009750BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A25ADF91D75B144009750BF /* PBXTargetDependency */,
+			);
+			name = taity_birthdayTests;
+			productName = taity_birthdayTests;
+			productReference = 9A25ADF71D75B144009750BF /* taity_birthdayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A25AE011D75B144009750BF /* taity_birthdayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A25AE111D75B144009750BF /* Build configuration list for PBXNativeTarget "taity_birthdayUITests" */;
+			buildPhases = (
+				9A25ADFE1D75B144009750BF /* Sources */,
+				9A25ADFF1D75B144009750BF /* Frameworks */,
+				9A25AE001D75B144009750BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A25AE041D75B144009750BF /* PBXTargetDependency */,
+			);
+			name = taity_birthdayUITests;
+			productName = taity_birthdayUITests;
+			productReference = 9A25AE021D75B144009750BF /* taity_birthdayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A25ADDB1D75B144009750BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Riku Arakawa";
+				TargetAttributes = {
+					9A25ADE21D75B144009750BF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9A25ADF61D75B144009750BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A25ADE21D75B144009750BF;
+					};
+					9A25AE011D75B144009750BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A25ADE21D75B144009750BF;
+					};
+				};
+			};
+			buildConfigurationList = 9A25ADDE1D75B144009750BF /* Build configuration list for PBXProject "taity_birthday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A25ADDA1D75B144009750BF;
+			productRefGroup = 9A25ADE41D75B144009750BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A25ADE21D75B144009750BF /* taity_birthday */,
+				9A25ADF61D75B144009750BF /* taity_birthdayTests */,
+				9A25AE011D75B144009750BF /* taity_birthdayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A25ADE11D75B144009750BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A25ADF11D75B144009750BF /* LaunchScreen.storyboard in Resources */,
+				9A25AE171D75B26A009750BF /* CustomCell.xib in Resources */,
+				9A25ADEE1D75B144009750BF /* Assets.xcassets in Resources */,
+				9A25ADEC1D75B144009750BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A25ADF51D75B144009750BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A25AE001D75B144009750BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A25ADDF1D75B144009750BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A25ADE91D75B144009750BF /* ViewController.swift in Sources */,
+				9A25ADE71D75B144009750BF /* AppDelegate.swift in Sources */,
+				9A25AE161D75B26A009750BF /* CustomCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A25ADF31D75B144009750BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A25ADFC1D75B144009750BF /* taity_birthdayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A25ADFE1D75B144009750BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A25AE071D75B144009750BF /* taity_birthdayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A25ADF91D75B144009750BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A25ADE21D75B144009750BF /* taity_birthday */;
+			targetProxy = 9A25ADF81D75B144009750BF /* PBXContainerItemProxy */;
+		};
+		9A25AE041D75B144009750BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A25ADE21D75B144009750BF /* taity_birthday */;
+			targetProxy = 9A25AE031D75B144009750BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A25ADEA1D75B144009750BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A25ADEB1D75B144009750BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A25ADEF1D75B144009750BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A25ADF01D75B144009750BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A25AE091D75B144009750BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A25AE0A1D75B144009750BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A25AE0C1D75B144009750BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taity_birthday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.taity-birthday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A25AE0D1D75B144009750BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taity_birthday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.taity-birthday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A25AE0F1D75B144009750BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = taity_birthdayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.taity-birthdayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taity_birthday.app/taity_birthday";
+			};
+			name = Debug;
+		};
+		9A25AE101D75B144009750BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = taity_birthdayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.taity-birthdayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taity_birthday.app/taity_birthday";
+			};
+			name = Release;
+		};
+		9A25AE121D75B144009750BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = taity_birthdayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.taity-birthdayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = taity_birthday;
+			};
+			name = Debug;
+		};
+		9A25AE131D75B144009750BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = taity_birthdayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.taity-birthdayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = taity_birthday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A25ADDE1D75B144009750BF /* Build configuration list for PBXProject "taity_birthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A25AE091D75B144009750BF /* Debug */,
+				9A25AE0A1D75B144009750BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A25AE0B1D75B144009750BF /* Build configuration list for PBXNativeTarget "taity_birthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A25AE0C1D75B144009750BF /* Debug */,
+				9A25AE0D1D75B144009750BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A25AE0E1D75B144009750BF /* Build configuration list for PBXNativeTarget "taity_birthdayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A25AE0F1D75B144009750BF /* Debug */,
+				9A25AE101D75B144009750BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A25AE111D75B144009750BF /* Build configuration list for PBXNativeTarget "taity_birthdayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A25AE121D75B144009750BF /* Debug */,
+				9A25AE131D75B144009750BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A25ADDB1D75B144009750BF /* Project object */;
+}
