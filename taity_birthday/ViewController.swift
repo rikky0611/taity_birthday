@@ -16,9 +16,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         collectionView.delegate = self
         collectionView.dataSource = self
-        let nib = UINib(nibName: "CustomCell", bundle: nil)
+        let nib = UINib(nibName: "CollectionViewCell", bundle: nil)
         self.collectionView.registerNib(nib, forCellWithReuseIdentifier: "Cell")
-        self.collectionView.registerClass(CustomCell.self, forCellWithReuseIdentifier: "Cell")
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,14 +36,8 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CustomCell
-        
-        //セルの背景色をランダムに設定する。
-        cell.backgroundColor = UIColor(red: CGFloat(drand48()),
-                                       green: CGFloat(drand48()),
-                                       blue: CGFloat(drand48()),
-                                       alpha: 1.0)
-        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CollectionViewCell
+        cell.setUp()        
         return cell
     }
     

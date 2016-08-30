@@ -14,8 +14,8 @@
 		9A25ADF11D75B144009750BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A25ADEF1D75B144009750BF /* LaunchScreen.storyboard */; };
 		9A25ADFC1D75B144009750BF /* taity_birthdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25ADFB1D75B144009750BF /* taity_birthdayTests.swift */; };
 		9A25AE071D75B144009750BF /* taity_birthdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25AE061D75B144009750BF /* taity_birthdayUITests.swift */; };
-		9A25AE161D75B26A009750BF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25AE141D75B26A009750BF /* CustomCell.swift */; };
-		9A25AE171D75B26A009750BF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A25AE151D75B26A009750BF /* CustomCell.xib */; };
+		9A25AE1A1D75C623009750BF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25AE181D75C623009750BF /* CollectionViewCell.swift */; };
+		9A25AE1B1D75C623009750BF /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A25AE191D75C623009750BF /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		9A25AE021D75B144009750BF /* taity_birthdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taity_birthdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A25AE061D75B144009750BF /* taity_birthdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taity_birthdayUITests.swift; sourceTree = "<group>"; };
 		9A25AE081D75B144009750BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A25AE141D75B26A009750BF /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		9A25AE151D75B26A009750BF /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		9A25AE181D75C623009750BF /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9A25AE191D75C623009750BF /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 				9A25ADED1D75B144009750BF /* Assets.xcassets */,
 				9A25ADEF1D75B144009750BF /* LaunchScreen.storyboard */,
 				9A25ADF21D75B144009750BF /* Info.plist */,
-				9A25AE141D75B26A009750BF /* CustomCell.swift */,
-				9A25AE151D75B26A009750BF /* CustomCell.xib */,
+				9A25AE181D75C623009750BF /* CollectionViewCell.swift */,
+				9A25AE191D75C623009750BF /* CollectionViewCell.xib */,
 			);
 			path = taity_birthday;
 			sourceTree = "<group>";
@@ -236,9 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A25ADF11D75B144009750BF /* LaunchScreen.storyboard in Resources */,
-				9A25AE171D75B26A009750BF /* CustomCell.xib in Resources */,
 				9A25ADEE1D75B144009750BF /* Assets.xcassets in Resources */,
 				9A25ADEC1D75B144009750BF /* Main.storyboard in Resources */,
+				9A25AE1B1D75C623009750BF /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +265,7 @@
 			files = (
 				9A25ADE91D75B144009750BF /* ViewController.swift in Sources */,
 				9A25ADE71D75B144009750BF /* AppDelegate.swift in Sources */,
-				9A25AE161D75B26A009750BF /* CustomCell.swift in Sources */,
+				9A25AE1A1D75C623009750BF /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +490,7 @@
 				9A25AE0D1D75B144009750BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A25AE0E1D75B144009750BF /* Build configuration list for PBXNativeTarget "taity_birthdayTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				9A25AE101D75B144009750BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A25AE111D75B144009750BF /* Build configuration list for PBXNativeTarget "taity_birthdayUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +508,7 @@
 				9A25AE131D75B144009750BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
