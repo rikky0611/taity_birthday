@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
+    var correctCellRow: Int!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +38,11 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CollectionViewCell
-        cell.setUp()        
+        if indexPath.row == correctCellRow {
+            cell.setUp(true)
+        } else {
+            cell.setUp(false)
+        }
         return cell
     }
     
