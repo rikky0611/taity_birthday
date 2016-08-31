@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         collectionView.dataSource = self
         let nib = UINib(nibName: "CollectionViewCell", bundle: nil)
         self.collectionView.registerNib(nib, forCellWithReuseIdentifier: "Cell")
+        
+        initializeGame()
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,7 +32,6 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-    
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 20
@@ -47,7 +48,25 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        print("tapped")
+        showAnswerAlertOnView(indexPath.row)
     }
     
+}
+
+extension ViewController {
+    
+    private func initializeGame() {
+        correctCellRow = Int(arc4random()) % numberOfCell
+        collectionView.reloadData()
+    }
+    
+    private func showAnswerAlertOnView(selectedCellRow: Int) {
+        let title = selectedCellRow == correctCellRow ? "正解" : "はずれ"
+        let message = selectedCellRow == correctCellRow ? "それはたいてぃです。" : "それはゴリラです。"
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        self.presentViewController(alert, animated: true, completion: {
+            self.initializeGame()
+        })
+    }
 }
