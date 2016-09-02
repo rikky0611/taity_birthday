@@ -23,14 +23,14 @@ class CollectionViewCell: UICollectionViewCell {
     
     private func setImage(isCorrectCell: Bool) {
         imageView.backgroundColor = UIColor.redColor()
-//        var imageArray: [UIImage] = []
-//        if isCorrectCell {
-//            imageArray = GorillaImages
-//        } else {
-//            imageArray = TaityImages
-//        }
-//        let index = Int(arc4random()) % imageArray.count
-//        imageView.image = imageArray[index]
+        var imageArray: [UIImage] = []
+        if !isCorrectCell {
+            imageArray = GorillaImages
+        } else {
+            imageArray = TaityImages
+        }
+        let index = Int(arc4random()) % imageArray.count
+        imageView.image = imageArray[index]
     }
     
     private func setAnimation() {
