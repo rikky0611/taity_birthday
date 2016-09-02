@@ -159,12 +159,12 @@
 				9A25ADE61D75B144009750BF /* AppDelegate.swift */,
 				9A25ADE81D75B144009750BF /* ViewController.swift */,
 				9A25ADEA1D75B144009750BF /* Main.storyboard */,
-				9A25ADED1D75B144009750BF /* Assets.xcassets */,
 				9A25ADEF1D75B144009750BF /* LaunchScreen.storyboard */,
 				9A25ADF21D75B144009750BF /* Info.plist */,
 				9A25AE181D75C623009750BF /* CollectionViewCell.swift */,
 				9A25AE191D75C623009750BF /* CollectionViewCell.xib */,
 				9A25AE551D7906CE009750BF /* Images.swift */,
+				9A25ADED1D75B144009750BF /* Assets.xcassets */,
 			);
 			path = taity_birthday;
 			sourceTree = "<group>";

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     var correctCellRow: Int!
     let numberOfCell = 20

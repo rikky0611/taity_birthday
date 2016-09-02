@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 var GorillaImages: [UIImage] = [UIImage(named: "gorilla1.jpeg")!, UIImage(named: "gorilla2.jpg")!, UIImage(named: "gorilla3.jpg")!,
                                 
                      UIImage(named: "gorilla4.jpg")!, UIImage(named: "gorilla5.jpg")!, UIImage(named: "gorilla6.png")!,
