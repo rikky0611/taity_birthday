@@ -159,11 +159,10 @@
 				9A25ADE61D75B144009750BF /* AppDelegate.swift */,
 				9A25ADE81D75B144009750BF /* ViewController.swift */,
 				9A25ADEA1D75B144009750BF /* Main.storyboard */,
-				9A25ADEF1D75B144009750BF /* LaunchScreen.storyboard */,
-				9A25ADF21D75B144009750BF /* Info.plist */,
 				9A25AE181D75C623009750BF /* CollectionViewCell.swift */,
 				9A25AE191D75C623009750BF /* CollectionViewCell.xib */,
-				9A25AE551D7906CE009750BF /* Images.swift */,
+				9A25ADEF1D75B144009750BF /* LaunchScreen.storyboard */,
+				9A25ADF21D75B144009750BF /* Info.plist */,
 				9A25ADED1D75B144009750BF /* Assets.xcassets */,
 			);
 			path = taity_birthday;
@@ -230,6 +229,7 @@
 		9A25AE571D790A29009750BF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9A25AE551D7906CE009750BF /* Images.swift */,
 				9A25AE581D790A38009750BF /* title.png */,
 				9A25AE211D7906A2009750BF /* taity */,
 				9A25AE2C1D7906AA009750BF /* gorillas */,

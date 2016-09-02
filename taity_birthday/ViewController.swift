@@ -66,7 +66,7 @@ extension ViewController {
         let message = selectedCellRow == correctCellRow ? "それはたいてぃです。" : "それはゴリラです。"
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-        self.presentViewController(alert, animated: true, completion: {
+        presentViewController(alert, animated: true, completion: {
             self.initializeGame()
         })
     }

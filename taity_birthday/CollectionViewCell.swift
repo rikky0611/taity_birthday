@@ -22,7 +22,6 @@ final class CollectionViewCell: UICollectionViewCell {
     }
     
     private func setImage(isCorrectCell: Bool) {
-        imageView.backgroundColor = UIColor.redColor()
         var imageArray: [UIImage] = []
         if !isCorrectCell {
             imageArray = GorillaImages
